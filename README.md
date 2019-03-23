@@ -1,2 +1,5 @@
-# project-3
-University of Arizona Coding Bootcamp project 3!
+#Coding Quest
+
+ Coding quest a React based puzzle-strategy game that asks you relevant programming trivia questions pretaining to the language and style used to create puzzle.
+ 
+ 
