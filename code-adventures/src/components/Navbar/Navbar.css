@@ -1,0 +1,20 @@
+.navbar {
+    height: 80px;
+    background-color: green;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.pg-title {
+    font-size: 40px;
+}
+
+
+
