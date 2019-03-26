@@ -2,7 +2,7 @@ require("dotenv").config();
 let express = require("express");
 let passport = require("passport");
 let session = require("express-session");
-let db = require("./models");
+// let db = require("./models");
 let app = express();
 let PORT = process.env.PORT || 3001;
 

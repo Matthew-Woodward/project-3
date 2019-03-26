@@ -4,7 +4,6 @@ let passport = require("passport");
 
 let unirest = require("unirest");
 
-const parseString = require("xml2js").parseString;
 
 module.exports = function (app) {
     // User login routes.
