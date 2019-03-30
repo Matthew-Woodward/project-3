@@ -2,7 +2,7 @@ require("dotenv").config();
 let express = require("express");
 let passport = require("passport");
 let session = require("express-session");
-// let db = require("./models");
+let db = require("./models");
 let app = express();
 let PORT = process.env.PORT || 3001;
 
@@ -26,8 +26,8 @@ app.use(passport.session()); // persistent login sessions
 
 // Routes
 require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
-require(".config/passport.js")(passport, db.User);
+// require("./routes/htmlRoutes")(app);
+require("./config/passport.js")(passport, db.User);
 
 let syncOptions = { force: false };
 
@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === "test") {
 
 // Starting the server
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./client/public/index.html"));
 });
 
 app.listen(PORT, () => {
