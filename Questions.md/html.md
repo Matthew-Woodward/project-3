@@ -12,9 +12,7 @@ Who is making the Web standards?
 
 Choose the correct HTML element for the largest heading:
 -<heading></heading>
--
-
-<head></head>
+-<head></head>
 -<h1></h1>
 -<h6></h6>
 
@@ -23,5 +21,3 @@ What is the correct HTML element for inserting a line break?
 -<br><br>
 -<break></break>
 -<rack></rack>
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
