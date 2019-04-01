@@ -4,13 +4,15 @@ import "./Navbar.css"
 
 const Navbar = props => {
     return(
-    <nav className="navbar nav-justified">
-        <a className="navbar-brand nav-item pg-title" href="#">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Code Adventures</a>
+        <button type="button" class="btn btn-warning">Contact Us</button>
+        <button type="button" class="btn btn-primary">Log In</button>
 
-</a>
-        <span className="navbar-brand nav-item msg">Code Adventures</span>
-        
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+        </div>
+      </nav>
     )
 }
 
