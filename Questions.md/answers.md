@@ -39,7 +39,7 @@ JavaScript-Questions
 
 4. Where is the correct place to insert a JavaScript? --<script src="xxx.js">
 
-
+Level Quatro
 
 MYSQL- Questions
 
@@ -51,3 +51,19 @@ MYSQL- Questions
 3. Which SQL statement is used to update data in a database? --Explanation: The ALTER TABLE statement is used to add, delete, or modify columns. Explanation: The SQL UPDATE Query is used to modify the existing records in a table.You can use WHERE clause with UPDATE query to update selected rows otherwise all the rows would be affected.
 
 4. Which SQL statement is used to delete data from a database? -- DELETE
+
+
+Level Cinco
+
+React-Questions
+
+1. Everything in React is a --Component
+
+2. In which directory React Components are saved?
+--Inside js/components/
+
+3. How many elements does a react component return?
+--Multiple Elements
+
+4. What is state in React?
+--An internal data store (object) of a component.
