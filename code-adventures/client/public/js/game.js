@@ -73,7 +73,7 @@ function buildVars() {
       ]
     },
     {
-      //CSS3
+      //Girl
       name: "",
       img: {
         default: "https://archives.bulbagarden.net/media/upload/9/9e/Spr_C_Kris.png",
@@ -133,7 +133,7 @@ function buildVars() {
         total: 10
       },
       answers: [{
-          name: "Hypertext Markup Language",
+          name: "home tool markup language",
           hp: randomNum(40, 20),
           avail: {
             total: 3,
@@ -141,7 +141,7 @@ function buildVars() {
           }
         },
         {
-          name: "Div Tag",
+          name: "hyperlinks and text markup language",
           hp: randomNum(60, 45),
           avail: {
             total: 3,
@@ -149,7 +149,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 3",
+          name: "hypertext markup language",
           hp: randomNum(75, 60),
           avail: {
             total: 3,
@@ -157,7 +157,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 4",
+          name: "home ten markup length",
           hp: randomNum(160, 130),
           avail: {
             total: 3,
@@ -179,7 +179,7 @@ function buildVars() {
         total: 500
       },
       answers: [{
-          name: "Placeholder 1",
+          name: "Creative style sheets",
           hp: randomNum(40, 20),
           avail: {
             total: 3,
@@ -187,7 +187,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 2",
+          name: "Colorful style sheets",
           hp: randomNum(60, 45),
           avail: {
             total: 3,
@@ -195,7 +195,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 3",
+          name: "Cascading style sheets",
           hp: randomNum(75, 60),
           avail: {
             total: 3,
@@ -203,7 +203,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 4",
+          name: "Computer styles sheets",
           hp: randomNum(160, 130),
           avail: {
             total: 3,
@@ -225,7 +225,7 @@ function buildVars() {
         total: 500
       },
       answers: [{
-          name: "Placeholder 1",
+          name: "<js><js>",
           hp: randomNum(40, 20),
           avail: {
             total: 3,
@@ -233,7 +233,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 2",
+          name: "<script><script>",
           hp: randomNum(60, 45),
           avail: {
             total: 3,
@@ -241,7 +241,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 3",
+          name: "<java></java>",
           hp: randomNum(75, 60),
           avail: {
             total: 3,
@@ -249,7 +249,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 4",
+          name: "<javascript></javascript>",
           hp: randomNum(160, 130),
           avail: {
             total: 3,
@@ -271,7 +271,7 @@ function buildVars() {
         total: 500
       },
       answers: [{
-          name: "Placeholder 1",
+          name: "Structured question language",
           hp: randomNum(40, 20),
           avail: {
             total: 3,
@@ -279,7 +279,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 2",
+          name: "Structure query language",
           hp: randomNum(60, 45),
           avail: {
             total: 3,
@@ -287,7 +287,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 3",
+          name: "Strong question language",
           hp: randomNum(75, 60),
           avail: {
             total: 3,
@@ -295,7 +295,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 4",
+          name: "Strong queen linda",
           hp: randomNum(160, 130),
           avail: {
             total: 3,
@@ -317,7 +317,7 @@ function buildVars() {
         total: 500
       },
       answers: [{
-          name: "Placeholder 1",
+          name: "Moduel",
           hp: randomNum(40, 20),
           avail: {
             total: 3,
@@ -325,7 +325,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 2",
+          name: "Component",
           hp: randomNum(60, 45),
           avail: {
             total: 3,
@@ -333,7 +333,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 3",
+          name: "Package",
           hp: randomNum(75, 60),
           avail: {
             total: 3,
@@ -341,7 +341,7 @@ function buildVars() {
           }
         },
         {
-          name: "Placeholder 4",
+          name: "class",
           hp: randomNum(160, 130),
           avail: {
             total: 3,
