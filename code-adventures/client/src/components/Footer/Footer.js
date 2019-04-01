@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = props => {
     return(
-    <div className="footer">
-    
+      <div class="footer">
+      <p>Team Mammals</p>
     </div>
     )
 }

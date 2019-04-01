@@ -1,6 +1,6 @@
 .navbar {
-    height: 80px;
-    background-color: green;
+    height: 90px;
+    background-color: rgb(0, 170, 0);
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 0;
@@ -9,12 +9,20 @@
 }
 
 .navbar-brand {
-    color: white;
+    
+    font-size: 30px;
+    margin-top: 30px;
+    /* font-family: 'Germania One', cursive; */
+    font-family: monospace;
 }
 
 .pg-title {
-    font-size: 40px;
+    font-size: 50px;
 }
 
+button {
+    margin-top: 30px; 
+
+}
 
 

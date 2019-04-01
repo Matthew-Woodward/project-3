@@ -1,14 +1,247 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  padding-top: 30px;
+  background-color: #d2ecff;
+}
+nav{
+  margin-top: -30px;
+}
+header {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Germania One', cursive;
+}
+header img {
+  max-height: 100px;
+  cursor: pointer;
+}
+strong {
+  font-weight: 600;
+  line-height: 1.5em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.row {
+  display: block;
+  min-height: 60px;
 }
+
+/* Instructions Section */
+.instructions {
+  text-align: center;
+  padding: 10px 0;
+}
+.instructions p {
+  font-size: 2.5em;
+  font-family: monospace;
+}
+
+button {
+  margin-left: 10px;
+}
+
+/* All the stuff for the Character List and containers */
+
+.characters {
+  display: flex;
+  justify-content: space-around;
+  transition: visibility 0.3s ease, opacity 0.3s ease, height 0.3s ease;
+}
+.characters.hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+.char-container {
+  width: 25%;
+  text-align: center;
+  padding: 25px 0;
+  cursor: pointer;
+}
+.char-container img {
+  max-height: 100px;
+  margin-bottom: 13px;
+  transition: transform 0.3s ease, margin 0.3s ease;
+}
+.char-container h2 {
+  text-transform: capitalize;
+  font-size: 1.6em;
+  transition: font-size 0.3s ease;
+  font-family: monospace;
+}
+.char-container:hover img {
+  transform: scale(1.7);
+  margin-bottom: 17px;
+}
+.char-container:hover h2 {
+  font-size: 0em;
+}
+
+/* Hero Stuff and Hero containers*/
+
+.heroes {
+  display: flex;
+  justify-content: space-around;
+  transition: visibility 0.3s ease, opacity 0.3s ease, height 0.3s ease;
+}
+.heroes .hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+
+.hero-container {
+  width: 25%;
+  text-align: center;
+  padding: 25px 0;
+  cursor: pointer;
+}
+.hero-container img {
+  max-height: 100px;
+  margin-bottom: 13px;
+  height: 100%;
+  transition: transform 0.3s ease, margin 0.3s ease;
+}
+.hero-container h2 {
+  text-transform: capitalize;
+  font-size: 1.6em;
+  transition: font-size 0.3s ease;
+  font-family: monospace;
+}
+.hero-container:hover img {
+  transform: scale(1.9);
+  margin-bottom: 17px;
+}
+.hero-container:hover h2 {
+  font-size: 0em;
+}
+
+/* STADIUM TAGS- Arrange the layout of the RPG */
+/* ------------------------------------------- */
+
+.stadium {
+  background: #7dcd79;
+}
+.stadium > section {
+  display: block;
+  box-sizing: border-box;
+}
+.stadium > section .char {
+  height: 175px;
+  position: relative;
+}
+.stadium > section .char > * {
+  position: absolute;
+  text-transform: capitalize;
+}
+.stadium > section .char img {
+  height: 150px;
+}
+.stadium > section .char .data {
+  background: #ccc;
+  width: 20vw;
+  padding: 15px 2%;
+  box-sizing: border-box;
+  top: 25px;
+}
+.stadium > section .char .data progress {
+  width: 100%;
+}
+.stadium > section .char .data p {
+  text-align: right;
+}
+.stadium .enemy img {
+  right: 20vw;
+}
+.stadium .enemy .data {
+  left: 15vw;
+}
+.stadium .hero img {
+  left: 20vw;
+}
+.stadium .hero .data {
+  right: 15vw;
+}
+.attack-list {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fffafa;
+  position: initial;
+  transtion: opacity 0.3s ease;
+  text-transform: capitalize;
+}
+.attack-list.disabled {
+  opacity: 0.5;
+  position: relative;
+  z-index: -1;
+  cursor: initial;
+}
+.attack-list li {
+  width: 50%;
+  text-align: center;
+  padding: 25px 0;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.attack-list li:hover {
+  background: #eee;
+}
+.modal-out {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(33, 33, 33, 0.75);
+  z-index: 900;
+}
+.modal-out .modal-in {
+  position: fixed;
+  top: 15vh;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  height: 70vh;
+  margin: 0 auto;
+  background: #fffafa;
+}
+.modal-out .modal-in header {
+  position: relative;
+  min-height: 30px;
+  text-align: center;
+  padding: 10px 3%;
+  box-sizing: border-box;
+}
+.modal-out .modal-in header h1 {
+  font-size: 2.2em;
+}
+.modal-out .modal-in .close {
+  cursor: pointer;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}
+.modal-out .modal-in section {
+  box-sizing: border-box;
+  padding: 25px 3%;
+}
+
+main {
+  padding: 100px;
+}
+
+/* FOOTER STUFF */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 170, 0);
+  color: white;
+  text-align: center;
+}
+  
+ 
